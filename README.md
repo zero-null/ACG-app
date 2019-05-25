@@ -6,3 +6,10 @@
 
 ### 链接下载
 [https://zero-null.github.io/ACG-app/app-release.apk](https://zero-null.github.io/ACG-app/app-release.apk)
+
+## 测试账户
+### 账号
+test
+
+### 密码
+test
