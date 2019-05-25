@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="启动页">
+        <SwitchPreference android:key="pref_splash_switch"
+            android:title="开关"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="计划">
+        <RingtonePreference android:key="pref_planrington_choose"
+            android:title="铃声" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

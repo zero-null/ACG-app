@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_learn"
+            android:icon="@drawable/ic_learn"
+            android:title="@string/channel_learn_name" />
+        <item
+            android:id="@+id/nav_consult"
+            android:icon="@drawable/ic_square"
+            android:title="@string/channel_consult_name" />
+        <item
+            android:id="@+id/nav_write"
+            android:icon="@drawable/ic_write"
+            android:title="@string/channel_write_name" />
+    </group>
+
+    <item android:title="其他">
+        <menu>
+
+            <item
+                android:id="@+id/nav_plan"
+                android:icon="@drawable/ic_plan"
+                android:title="@string/channel_plan_name" />
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="反馈" />
+            <item
+                android:id="@+id/nav_instruction"
+                android:icon="@drawable/ic_instruction"
+                android:title="说明" />
+        </menu>
+    </item>
+</menu>

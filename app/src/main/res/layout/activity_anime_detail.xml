@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar android:id="@+id/anime_detail_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"/>
+
+    <ImageView android:id="@+id/anime_detail_cover"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="center"/>
+
+    <co.lujun.androidtagview.TagContainerLayout android:id="@+id/anime_detail_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:padding="10dp"
+        app:container_enable_drag="false"
+        app:horizontal_interval="10dp"
+        app:vertical_interval="10dp"
+        app:tag_clickable="false"
+        app:container_border_radius="0dp"
+        app:container_border_color="@color/white"
+        app:container_background_color="@color/white"
+        app:tag_background_color="@color/colorPrimary"
+        app:tag_text_color="@color/white"
+        app:tag_border_color="@color/colorPrimary"
+        app:tag_theme="none" />
+
+    <TextView android:id="@+id/anime_detail_description"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+
+        <Button android:id="@+id/anime_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="前往赏析"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

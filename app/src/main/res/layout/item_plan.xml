@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_item_plan"
+        android:layout_width="240dp"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/tv_plan_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_plan_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:padding="16dp" />
+
+    </android.support.v7.widget.CardView>
+
+
+    <View
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="2dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/plan_item_endflag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="没有更多计划啦"
+        android:visibility="gone"/>
+
+</LinearLayout>

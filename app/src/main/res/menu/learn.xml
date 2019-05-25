@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="搜索资源"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/recommend"
+        android:icon="@drawable/ic_learn_recommend"
+        android:title="推荐资源"
+        app:showAsAction="always"/>
+</menu>

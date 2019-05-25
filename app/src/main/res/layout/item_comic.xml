@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView android:id="@+id/comic_item_cover"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="center"/>
+
+        <TextView android:id="@+id/comic_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/comic_item_cover"/>
+
+        <co.lujun.androidtagview.TagContainerLayout android:id="@+id/comic_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comic_item_name"
+            android:layout_toRightOf="@id/comic_item_cover"
+            android:layout_margin="0dp"
+            android:padding="10dp"
+            app:container_gravity="center"
+            app:container_enable_drag="false"
+            app:horizontal_interval="10dp"
+            app:vertical_interval="10dp"
+            app:tag_clickable="false"
+            app:container_border_radius="0dp"
+            app:container_border_color="@color/white"
+            app:container_background_color="@color/white"
+            app:tag_background_color="@color/colorPrimary"
+            app:tag_text_color="@color/white"
+            app:tag_border_color="@color/colorPrimary"
+            app:tag_theme="none" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

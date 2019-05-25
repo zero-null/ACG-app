@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_header"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/colorPrimary">
+
+    <ImageButton
+        android:id="@+id/btn_setting"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:scaleType="fitXY"
+        android:layout_margin="16dp"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/ic_setting"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@+id/iv_conversation"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_conversation"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_main_avatar"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tv_main_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_main_avatar"
+        android:layout_margin="8dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

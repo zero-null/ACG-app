@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:layout_marginHorizontal="16dp">
+            <android.support.design.widget.TextInputEditText
+                android:background="@color/gray"
+                android:id="@+id/recommend_resource_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:hint="资源 URL 或说明"
+                android:inputType="textUri" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/recommend_resource_reason"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:background="@color/gray"
+                android:hint="推荐理由"
+                android:inputType="text"
+                android:gravity="start" />
+        </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

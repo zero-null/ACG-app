@@ -1,0 +1,41 @@
+<resources>
+    <!-- 应用与频道的名称及标语 -->
+    <string name="app_name">幻想次元</string>
+    <string name="app_slogan">纯粹的 ACG 应用</string>
+    <string name="channel_plan_name">计划</string>
+    <string name="channel_plan_slogan">做点什么好呢</string>
+    <string name="channel_learn_name">资源</string>
+    <string name="channel_learn_slogan">从了解你开始</string>
+    <string name="channel_consult_name">广场</string>
+    <string name="channel_consult_slogan">才不是为了勾搭</string>
+    <string name="channel_write_name">心得</string>
+    <string name="channel_write_slogan">告诉我，你的世界</string>
+
+
+    <string name="passerby">路人</string>
+    <!-- 性别列表 -->
+    <string-array name="sex_array">
+        <item>男</item>
+        <item>女</item>
+        <item>扶她</item>
+        <item>伪娘</item>
+        <item>秀吉</item>
+    </string-array>
+
+    <string-array name="anime_view_source">
+        <item>嘀哩嘀哩</item>
+        <item>哔哩哔哩</item>
+    </string-array>
+
+    <string-array name="channel_learn_module_name">
+        <item>动画</item>
+        <item>漫画</item>
+        <item>游戏</item>
+    </string-array>
+
+    <string name="add_widget">Add widget</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
